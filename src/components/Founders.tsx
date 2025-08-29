@@ -1,5 +1,7 @@
 import React from "react";
 import lovlinaImg from "../assets/lovlina.avif";
+import joythismanimg from "../assets/joytishman.webp"
+import coachimg from "../assets/coachimg.webp"
 
 const Founders = () => {
   const founders = [
@@ -16,7 +18,7 @@ const Founders = () => {
       description:
         "Sanjib Das is our Head Coach with over 15 years of boxing experience, guiding and shaping future champions.",
       image:
-        "https://i.ibb.co/Qm2m2Xr/boxing-coach.jpg", // you can replace with real photo later
+       coachimg, // you can replace with real photo later
     },
     {
       name: "Joytishman Lakhar",
@@ -24,7 +26,7 @@ const Founders = () => {
       description:
         "Joytishman Lakhar is a co-founder who works tirelessly to support and grow our academy with passion and dedication.",
       image:
-        "https://i.ibb.co/cLh3FQn/business-partner.jpg", // placeholder, can replace with actual
+        joythismanimg, // placeholder, can replace with actual
     },
   ];
 
