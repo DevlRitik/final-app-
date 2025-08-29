@@ -22,7 +22,7 @@ const Founders = () => {
     },
     {
       name: "Joytishman Lakhar",
-      role: "Co-Founder",
+      role: "Managing Director",
       description:
         "Joytishman Lakhar is a co-founder who works tirelessly to support and grow our academy with passion and dedication.",
       image:
