@@ -1,5 +1,6 @@
 import React from 'react';
 import { Users, Award, Flame } from 'lucide-react';
+import ringImage from '../assets/ring.webp'; // <-- Added your boxing ring image
 
 const About = () => {
   const features = [
@@ -61,8 +62,8 @@ const About = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-red-500/20 to-blue-600/20 rounded-3xl transform rotate-3"></div>
             <img 
-              src="https://images.pexels.com/photos/4754146/pexels-photo-4754146.jpeg?auto=compress&cs=tinysrgb&w=800" 
-              alt="Boxing Training" 
+              src={ringImage} 
+              alt="Lovlina Boxing Academy Ring" 
               className="relative rounded-3xl shadow-2xl w-full h-96 object-cover"
             />
           </div>
